@@ -34,9 +34,6 @@
                     <dl>
                         <?php $infoPosts = get_posts('numberposts=4&category=1,4,5'); foreach($infoPosts as $post): ?> 
                             <dt><?php the_time('y-m-d') ?></dt>
-                                <div class="b_img">
-    	                            <?php the_post_thumbnail('thumbside'); ?>
-                                </div>
                             <dd>
                                 <span class="tab tag_<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug;}?>">
                                     <?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name;}?>

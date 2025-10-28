@@ -10,7 +10,7 @@
 
             <div id="cont_left">
                 <div class="information">
-                    <h2>INFORMATION(archive)</h2>
+                    <h2>INFORMATION</h2>
                    
                     <dl>
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?> 
