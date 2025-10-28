@@ -7,4 +7,4 @@
                         <li><a href="<?php echo home_url(); ?>/service/#s2">エンジニア派遣</a></li>
                     </ul>
                 </div>
-            </div>
+</div>

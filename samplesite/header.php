@@ -2,10 +2,8 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 <script type="text/javascript">
 $(function() {
     $('#slide').slideshow({

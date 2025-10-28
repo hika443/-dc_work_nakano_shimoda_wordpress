@@ -14,6 +14,7 @@
                                     <div class="b_right"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></div>
                                 </dd>
                             <?php endwhile; endif; ?>
+                            <?php wp_pagenavi(); ?>
                         </dl>
                     </div>
                 </div>
