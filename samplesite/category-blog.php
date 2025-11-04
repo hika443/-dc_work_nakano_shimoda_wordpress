@@ -1,8 +1,13 @@
 <?php get_header(); ?>	
 <div id="cont_first" class="container">
-        <div id="contents">
+    <div id="contents">
 
-            <div id="cont_left">
+            <div class="pankuzu">
+                <?php if(function_exists('bcn_display'))
+                {
+                bcn_display();
+                }?>
+            </div>
                 <div id="cont_left">
                     <div class="information">
                         <h2>Blog</h2>
@@ -19,9 +24,8 @@
                     </div>
                 </div>
                        
-            </div>
             <?php get_sidebar(); ?>	 
-        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
