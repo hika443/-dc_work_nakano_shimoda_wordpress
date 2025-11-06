@@ -49,15 +49,13 @@
                     <dl>
                         <?php $infoPosts = get_posts('numberposts=4&category=3'); foreach($infoPosts as $post): ?> 
                             <dt><?php the_time('y-m-d') ?></dt>
+                            <dd>
                                 <div class="b_img">
     	                            <?php the_post_thumbnail('thumbside'); ?>
                                 </div>
-                            <dd>
-                                <span class="tab tag_<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug;}?>">
-                                    <?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name;}?>
-                                </span>
-
-                                <a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a>を掲載しました。
+                        
+                                <div class="b_right">
+                                <a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a>
                             </dd>
                         <?php endforeach; ?>
                     </dl>

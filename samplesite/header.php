@@ -17,7 +17,6 @@ $(function() {
     });
 });
 </script>
-<title>SAMPLE SITE</title>
 <?php if ( is_home() || is_front_page() ) : ?>
     <title><?php bloginfo('name'); ?></title>
 <?php else : ?>
@@ -32,7 +31,7 @@ $(function() {
 <body>
     <header>
         <div class="container">
-            <h1><a href="<?php echo home_url(); ?>/index/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="SAMPLE WEB SITE" /></a></h1>
+            <h1><a href="<?php echo home_url(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="SAMPLE WEB SITE" /></a></h1>
             <div id="menu">
                 <ul>
                     <li class="home"><a href="<?php echo home_url(); ?>/">TOP</a></li>

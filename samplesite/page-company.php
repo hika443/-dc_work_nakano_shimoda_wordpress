@@ -5,6 +5,12 @@
     ?>
     <div id="cont_first" class="container">
         <div id="contents">
+            <div class="pankuzu">
+                <?php if(function_exists('bcn_display'))
+                {
+                bcn_display();
+                }?>
+            </div>
             <div id="cont_left">
                 <h2>会社概要</h2>
                 <table>
@@ -44,8 +50,3 @@
     </div>
 
     <?php get_footer(); ?> 
-    <div id="pageTop">
-        <a href="#">PAGE TOP</a>
-    </div>
-</body>
-</html>
