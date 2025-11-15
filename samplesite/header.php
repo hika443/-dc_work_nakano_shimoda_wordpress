@@ -24,9 +24,11 @@ $(function() {
 <?php endif; ?>
 
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet">
-</head>
 
 <?php wp_head(); ?>
+
+</head>
+
 
 <body>
     <header>

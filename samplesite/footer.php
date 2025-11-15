@@ -10,7 +10,7 @@
         </div>
     </footer>
     <div id="pageTop">
-        <a href="/#/">PAGE TOP</a>
+        <a href="#">PAGE TOP</a>
     </div>
     <?php wp_footer(); ?>
 </body>
